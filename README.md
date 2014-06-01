@@ -1,4 +1,4 @@
-font-extractor
+font-to-image
 ==============
 
 Java app for extracting images from fonts. 
