@@ -1,0 +1,26 @@
+.welcome-text
+{
+    -fx-font-family: Consolas;
+    -fx-font-size: 23px;
+    -fx-font-weight: bold;
+}
+
+.details-text
+{
+    -fx-font-family: Consolas;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.main-button
+{
+    -fx-text-alignment: center;
+    -fx-min-width: 200px;
+    -fx-translate-x: 70;
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 10;
+    -fx-wrap-text: true;
+    -fx-font-family: Consolas;
+    -fx-font-size: 15px;
+    -fx-alignment: center;
+}
