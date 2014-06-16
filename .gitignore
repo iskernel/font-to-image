@@ -1,3 +1,6 @@
+font-to-image.iml
 out
 target
 .idea
+/lib/
+*.gitignore~

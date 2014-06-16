@@ -8,5 +8,11 @@
     <artifactId>fonttoimage</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>fr.opensagres.xdocreport.sfntly</groupId>
+            <artifactId>sfntly</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 </project>
