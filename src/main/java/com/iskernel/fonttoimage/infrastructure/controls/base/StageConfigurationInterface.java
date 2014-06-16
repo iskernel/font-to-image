@@ -1,8 +1,8 @@
-package com.iskernel.fonttoimage.infrastructure.views.interfaces;
+package com.iskernel.fonttoimage.infrastructure.controls.base;
 
 import javafx.beans.property.StringProperty;
 
-public interface AbstractStageConfiguration
+public interface StageConfigurationInterface
 {
     String getPath();
     void setPath(String path);

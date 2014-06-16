@@ -1,7 +1,7 @@
 package com.iskernel.fonttoimage;
 
-import com.iskernel.fonttoimage.infrastructure.views.concrete.StageConfiguration;
-import com.iskernel.fonttoimage.infrastructure.views.concrete.StageHelper;
+import com.iskernel.fonttoimage.infrastructure.controls.concrete.StageConfiguration;
+import com.iskernel.fonttoimage.infrastructure.controls.concrete.StageHelper;
 import javafx.application.Application;
 import javafx.stage.Stage;
 

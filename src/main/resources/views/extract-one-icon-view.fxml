@@ -1,0 +1,20 @@
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+
+<GridPane fx:controller="com.iskernel.fonttoimage.controllers.concrete.ExtractOneIconController"
+          xmlns:fx="http://javafx.com/fxml"
+          alignment="TOP_CENTER"
+          hgap="10"
+          vgap="10"
+          stylesheets="/css/main.css">
+
+    <Button text="Select a font file"
+            GridPane.columnIndex="0"
+            GridPane.rowIndex="0"
+            GridPane.rowSpan="1"
+            GridPane.columnSpan="2"
+            onAction="#selectFontFile"/>
+
+</GridPane>

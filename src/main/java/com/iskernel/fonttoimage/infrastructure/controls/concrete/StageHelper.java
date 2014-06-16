@@ -1,6 +1,6 @@
-package com.iskernel.fonttoimage.infrastructure.views.concrete;
+package com.iskernel.fonttoimage.infrastructure.controls.concrete;
 
-import com.iskernel.fonttoimage.infrastructure.views.interfaces.AbstractStageConfiguration;
+import com.iskernel.fonttoimage.infrastructure.controls.base.StageConfigurationInterface;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Parent;
@@ -14,9 +14,9 @@ public class StageHelper
 {
     private Rectangle2D screenBounds;
     private Stage primaryStage;
-    private AbstractStageConfiguration fxSceneView;
+    private StageConfigurationInterface fxSceneView;
 
-    public StageHelper(Stage primaryStage, AbstractStageConfiguration fxSceneView)
+    public StageHelper(Stage primaryStage, StageConfigurationInterface fxSceneView)
     {
         this.screenBounds = Screen.getPrimary().getVisualBounds();
         this.fxSceneView = fxSceneView;
