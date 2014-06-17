@@ -1,6 +1,6 @@
 font-to-image
 ==============
 
-Java app for extracting images from fonts. 
+JavaFx desktop app for extracting images from font files. 
 
 Currently in development.
